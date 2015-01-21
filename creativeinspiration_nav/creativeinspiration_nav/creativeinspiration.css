@@ -36,7 +36,7 @@ font-family:Arial, Helvetica, sans-serif;
 position:relative;
 padding: 3%;
 color:#DEE6F8;
-font-size:16px;
+font-size:25px;
 font-weight:bold;
 font-family:Arial, Helvetica, sans-serif;
 }
@@ -46,15 +46,23 @@ font-family:Arial, Helvetica, sans-serif;
 {
 position:relative;
 padding: 3%;
-background-color:#DCDCDC;
-height:30px;
+background-color:#D9D9D9;
+border-style: solid;
+border-top-color: transparent;
+border-left-color: transparent;
+border-right-color: transparent;  
+border-bottom-color: #BEBEBE;
 }
 
+.bar .navLink
+{
+  color:#FFFFFF;
+  font-size: 20px;
+}
 
 .bar .navLink a
 {
 color:#FFFFFF;
-font-size:25px;
 }
 
 .bar .navLink a:hover
