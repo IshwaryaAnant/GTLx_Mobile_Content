@@ -54,6 +54,30 @@ border-right-color: transparent;
 border-bottom-color: #BEBEBE;
 }
 
+.bar_dark_gray
+{
+position:relative;
+padding: 3%;
+background-color:#BEBEBE;
+border-style: solid;
+border-top-color: transparent;
+border-left-color: transparent;
+border-right-color: transparent;  
+border-bottom-color: #BEBEBE;
+}
+
+.bar_blue
+{
+position:relative;
+padding: 3%;
+background-color:#BFEFFF;
+border-style: solid;
+border-top-color: transparent;
+border-left-color: transparent;
+border-right-color: transparent;  
+border-bottom-color: #BFEFFF;
+}
+
 .bar .navLink
 {
   color:#FFFFFF;
