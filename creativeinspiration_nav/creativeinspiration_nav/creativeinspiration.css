@@ -69,6 +69,11 @@ border-bottom-color: #BEBEBE;
 border-width: 2px;
 }
 
+.background_blue 
+{
+  background-color: #BFEFFF;
+}
+
 .black
 {
   color: #000000;
@@ -77,18 +82,6 @@ border-width: 2px;
 .blue 
 {
   color: #BFEFFF;
-}
-
-.bar_blue
-{
-position:relative;
-padding: 3%;
-background-color:#BFEFFF;
-border-style: solid;
-border-top-color: transparent;
-border-left-color: transparent;
-border-right-color: transparent;  
-border-bottom-color: #BFEFFF;
 }
 
 .bar .navLink
