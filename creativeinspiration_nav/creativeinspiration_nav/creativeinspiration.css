@@ -65,6 +65,8 @@ border-bottom-color: #FFFFFF;
 .background_white
 {
 background-color:#FFFFFF;
+border-bottom-color: #BEBEBE; 
+border-width: 2px;
 }
 
 .black
