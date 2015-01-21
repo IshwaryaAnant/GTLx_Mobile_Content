@@ -19,6 +19,11 @@ body {
 background-color: #0198E1;
 position: relative;
 padding-bottom: 2%;
+border-style: solid;
+border-top-color: transparent;
+border-left-color: transparent;
+border-right-color: transparent;  
+border-bottom-color: #FFFFFF;
 }
 
 #headerTitle
@@ -76,7 +81,7 @@ border-width: 2px;
 
 .blue 
 {
-  color: #BFEFFF;
+  color: #63B8FF;
 }
 
 .bar_blue
