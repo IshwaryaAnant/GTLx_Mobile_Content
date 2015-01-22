@@ -83,17 +83,6 @@ font-size:20px;
   background-color: #D6F3FF;
 }
 
-.black
-{
-  color: #000000;
-}
-
-.blue 
-{
-  color: #63B8FF;
-}
-
-
 .contentTitle
 {
 margin: 3%;
@@ -114,6 +103,18 @@ padding-right:3%;
 font-size:16px;
 color:#030712;
 line-height:30px;
+}
+
+.background_white a{
+  color: #63B8FF;
+}
+
+.background_gray a{
+  color: #000000;
+}
+
+.background_dark_gray a{
+  color: #000000;
 }
 
 a
