@@ -83,18 +83,6 @@ font-size:20px;
   background-color: #D6F3FF;
 }
 
-.contentTitle
-{
-margin: 3%;
-}
-
-.contentTitle h1
-{
-font-size:17px;
-font-weight:bold;
-color:#071027;
-}
-
 
 .contentText
 {
@@ -115,6 +103,10 @@ line-height:30px;
 
 .background_dark_gray a{
   color: #000000;
+}
+
+#contentTextCenter a{
+  color: #63B8FF;
 }
 
 a
@@ -149,6 +141,20 @@ text-align:center;
 font-size:24px;
 color:#666666;
 padding-bottom:13px;
+}
+
+.contentTitle
+{
+  font-size:24px;
+  color: #000000;
+  margin: 3%;
+}
+
+.contentHeader
+{
+  font-size:24px;
+  color: #000000;
+  margin: 5% 3% 0% 3%;
 }
 
 #navBar
