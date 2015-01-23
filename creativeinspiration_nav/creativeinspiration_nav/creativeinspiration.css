@@ -164,6 +164,16 @@ font-size:18px;
 padding: 0% 0% 2% 0%;
 }
 
+.picContent {
+  padding:10px 20px 15px 10px;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #navBar
 {
   padding: 3% 1%;
