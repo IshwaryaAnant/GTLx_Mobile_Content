@@ -37,28 +37,174 @@ Released   : 20081009
             <a href="#">Vectors</a> | <a href="#">Derivatives</a> | <a href="#">Free Body Diagrams</a> | <a href="#">Trigonometry</a>
         </div>
           
-        <div id="contentTitleCenter">Vectors</div>
+        <div id="contentTitleCenter">Derivatives</div>
 
         <div class="contentText">
-            <h2>Derivatives</h2>
+            <h2>Slope vs. derivatives</h2>
 
-            <p> Free-body diagrams are diagrams used to show the relative magnitude and direction of all forces acting upon an object in a given situation. A free-body diagram is a special example of the vector diagrams. These diagrams will be used throughout our study of physics. The size of the arrow in a free-body diagram reflects the magnitude of the force. The direction of the arrow shows the direction that the force is acting. Each force arrow in the diagram is labeled to indicate the exact type of force. It is generally customary in a free-body diagram to represent the object by a box and to draw the force arrow from the center of the box outward in the direction that the force is acting. An example of a free-body diagram is shown in the image.</p>
+            <p> The slope of a line is the ratio of the amount that y increases as x increases some amount. Slope tells you how steep a line is, or how much y increases as x increases. The slope is constant (the same) anywhere on the line. You can use slope to estimate how “steep” a curve in the x-y cartesian plane is. You do this by choosing 2 points on the curve and find the change in Y and the change in X, and divide the two to get the slope. Where you choose your Y and X points affects the slope you get for the curve. An example is shown below.</p>
 
-            <img src="images/fbd_1.jpg" class="picContent" alt="" /> 
+            <img src="images/slope_1.jpg" class="picContent" alt="" /> 
 
-            <p>The free-body diagram above depicts four forces acting upon the object. Objects do not necessarily always have four forces acting upon them. There will be cases in which the number of forces depicted by a free-body diagram will be one, two, or three. There is no hard and fast rule about the number of forces that must be drawn in a free-body diagram. The only rule for drawing free-body diagrams is to depict all the forces that exist for that object in the given situation. Thus, to construct free-body diagrams, it is extremely important to know the various types of forces. If given a description of a physical situation, begin by using your understanding of the force types to identify which forces are present. Then determine the direction in which each force is acting. Finally, draw a box and add arrows for each existing force in the appropriate direction; label each force arrow according to its type. Here are some example situations and their associated free-body diagrams.</p>
+            <img src="images/slope_2.jpg" class="picContent" alt="" /> 
 
-            <p> A book is at rest on a tabletop. A free-body diagram for this situation looks like this:</p>
+            <p>Derivatives are slopes that use an infinitely small change in the x-direction. The purpose of derivatives is to find exactly how steep a curve is at a specific point in the graph. To do this, you start by finding the slope around an area, and then shrink the change in X until it shrinks to zero.</p>
 
-            <img src="images/fbd_2.jpg" class="picContent" alt="" />
+            <div class="eq">
+                <i>a</i> =
+                <div class="limes">
+                    <span class="overup">lim</span>
+                    <span class="overdn">&Delta; <i>t</i>&rarr;0</span>
+                </div>
+                <div class="fraction">
+                        <span class="fup">&Delta;<i>v</i></span>
+                        <span class="bar">/</span>
+                        <span class="fdn">&Delta; <i>t</i></span>
+                    </div>
+                </div>
 
-            <p> An egg is free-falling from a nest in a tree. Neglect air resistance. A free-body diagram for this situation looks like this: </p>
+            <h2>Instantaneous Velocity</h2>
 
-            <img src="images/fbd_3.jpg" class="picContent" alt="" />
+            <p> The approach of shrinking X to zero was used by Newton in the development of his Classical Mechanics. The main idea is the concept of velocity and speed. Indeed, assume you are traveling from point A to point B, what is the average velocity during the trip? The average velocity is just a slope, where change in Y is distance from A to B and change in X is time to get from A to B. It is given by   
 
-            <p> A rightward force is applied to a book in order to move it across a desk with a rightward acceleration. Consider frictional forces. Neglect air resistance. A free-body diagram for this situation looks like this:</p>
+             <div class="eq">
+                <i>Average velocity</i> =
+                <div class="fraction">
+                        <span class="fup"><i>distance from A to B</i></span>
+                        <span class="bar">/</span>
+                        <span class="fdn"><i>time to get from A to B</i></span>
+                    </div>
+                </div>
 
-             <img src="images/fbd_4.jpg" class="picContent" alt="" />
+            <p>If we now assume that A and B are very close to each other, we get close to what is called the instantaneous velocity, which is literally the derivative of motion. Of course, if A and B are close to each other, then the time it takes to travel from A to B will also be small. Indeed, assume that at time t=a, we are at A. If the time elapsed to get to B is Δt, then we will be at B at time t = a + Δt. If Δs is the distance from A to B, then the average velocity, or slope, is </p>
+
+            <div class="eq">
+                <i>Average velocity</i> =
+                <div class="fraction">
+                        <span class="fup"><i>Δs</i></span>
+                        <span class="bar">/</span>
+                        <span class="fdn"><i>Δt</i></span>
+                    </div>
+                </div>
+
+            <p>The instantaneous velocity (at A), or derivative, will be found when Δt gets smaller and smaller. Here we naturally run into the concept of limit and this is where the derivative comes from. Indeed, we have </p>
+
+            
+            <div class = "eq"><i>Instantaneous velocity (at A)</i> =
+                <div class="limes">
+                    <span class="overup">lim</span>
+                    <span class="overdn">&Delta; <i>t</i>&rarr;0</span>
+                </div>
+                <div class="fraction">
+                        <span class="fup">&Delta;<i>s</i></span>
+                        <span class="bar">/</span>
+                        <span class="fdn">&Delta; <i>t</i></span>
+                    </div>
+                </div>
+              
+            <p>If f(t) describes the position at time t, then Δs = f(a + Δt) - f(a). In this case, we have </p>
+
+            <div class = "eq"><i>Instantaneous velocity (at A)</i> =
+                <div class="limes">
+                    <span class="overup">lim</span>
+                    <span class="overdn">&Delta; <i>t</i>&rarr;0</span>
+                </div>
+                <div class="fraction">
+                    <span class="fup"><i>f(a + Δt) - f(a)</i></span>
+                    <span class="bar">/</span>
+                    <span class="fdn"> <i>Δt</i></span>
+                </div>
+            </div>
+
+
+
+
+            <p>Example. Let’s practice finding the derivative of an equation dealing with motion. Consider the parabolic motion given by the function f(t) = t<sup>2</sup>. Here f(t) is like Y and t is like X. The derivative at t=a is found by finding the limit of Δt reaching zero.  This is written as </p>
+            
+            <div class = "eq"><i>
+                <div class="limes">
+                    <span class="overup">lim</span>
+                    <span class="overdn">&Delta; <i>t</i>&rarr;0</span>
+                </div>
+                <div class="fraction">
+                    <span class="fup"><i>f(a + Δt) - f(a)</i></span>
+                    <span class="bar">/</span>
+                    <span class="fdn"> <i>Δt</i></span>
+                </div>= 
+                <div class="limes">
+                    <span class="overup">lim</span>
+                    <span class="overdn">&Delta; <i>t</i>&rarr;0</span>
+                </div>
+                <div class="fraction">
+                    <span class="fup"><i>(a + Δt)<sup>2</sup> - a<sup>2</sup></i></span>
+                    <span class="bar">/</span>
+                    <span class="fdn"> <i>Δt</i></span>
+                </div>
+                </i>
+            </div>
+
+            <p>Since</p>
+
+            <div class="eq">
+                <div class="fraction">
+                    <span class="fup"><i>(a + Δt)<sup>2</sup> - a<sup>2</sup></i></span>
+                    <span class="bar">/</span>
+                    <span class="fdn"> <i>Δt</i></span>
+                </div> =
+                <div class = "fraction">
+                    <span class="fup"><i>2aΔt + Δt<sup>2</sup></i></span>
+                    <span class="bar">/</span>
+                    <span class="fdn"> <i>Δt</i></span>
+                </div>= 2a+Δt
+            </div>
+
+            <p>we conclude that the derivative, which has Δt reach zero, at t=a is 2 a. Note that this is also the instantaneous velocity at t=a.</p>
+
+            <p>This concept of derivative, which relates motion to instantaneous velocity, may be extended to find the rate of change of any variable with respect to any other variable. For example, the volume of a gas depends on the temperature of the gas. So in this case, the variables are V (for volume) as a function of T (the temperature). In general, if we have y = f(x), then the average rate of change of y with respect to x, also known as the slope, from x = a to x = a + Δx where Δx &#8800 0 is </p>
+
+            <div class = "eq"><i>Average Rate</i> =
+                <div class="fraction">
+                    <span class="fup"><i>Δy</i></span>
+                    <span class="bar">/</span>
+                    <span class="fdn"> <i>Δx</i></span>
+                </div> =
+                <div class="fraction">
+                    <span class="fup"><i>f(a + Δx) - f(a)</i></span>
+                    <span class="bar">/</span>
+                    <span class="fdn"> <i>Δx</i></span>
+                </div>
+            </div>
+
+            <div class = "eq"><i>Instantaneous velocity (at x = a)</i> =
+                <div class="limes">
+                    <span class="overup">lim</span>
+                    <span class="overdn">&Delta; <i>x</i>&rarr;0</span>
+                </div>
+                <div class="fraction">
+                    <span class="fup"><i>Δy</i></span>
+                    <span class="bar">/</span>
+                    <span class="fdn"> <i>Δx</i></span>
+                </div> =
+                <div class="fraction">
+                    <span class="fup"><i>f(a + Δx) - f(a)</i></span>
+                    <span class="bar">/</span>
+                    <span class="fdn"> <i>Δx</i></span>
+                </div>=
+            </div>
+
+
+
+
+            <h2>Velocity vs. Acceleration</h2>
+
+            <p>Velocity is defined as the rate of change of position. In one dimension, or straight line motion, if x(t) indicates the position then v(t)=dx/dt. Alternately the velocity at a particular moment can be represented by the slope of the graph of the object's position vs. time, evaluated at that moment. Colloquially, the word "motion" means a change of position, and in physics when we discuss the "motion" of an object we are referring to its velocity (and its angular velocity if it is not a point particle).</p>
+
+             <img src="images/rate_1.jpg" class="picContent" alt="" /> 
+
+             <p>Acceleration of a moving object is defined as the rate of change of velocity. This is the second derivative of position or, in one dimension, a=d2x/dt2=dv/dt. Considering the graphical representation again, the acceleration of an object moving in the x-direction can be determined by finding the slope of the velocity vs. time graph at the moment of interest, or the curvature of a position vs. time graph.</p>
+
+             <img src="images/rate_2.jpg" class="picContent" alt="" /> 
+
 
 
         </div>

@@ -216,3 +216,61 @@ p {
   padding: 0% 3%;
   font-size: 18px;
 }
+
+span.frac {
+  display: inline-block;
+  font-size: 100%;
+  text-align: center;
+  padding: 3%;
+}
+span.frac > sup {
+  display: block;
+  border-bottom: 1px solid;
+}
+
+span.frac > span {
+  display: none;
+}
+span.frac > sub {
+  display: block;
+
+}
+
+.limes {
+    position: relative;
+    display: inline-block;
+    margin: 0 0.2em;
+    vertical-align: middle; 
+    text-align: center;
+}
+.limes > span { 
+    display: block;
+    margin:-0.5ex auto;
+}
+
+.eq {
+  padding-left: 3%;
+}
+
+.limes span.numup,
+.limes span.overup {
+  font-size: 100%;
+  text-align: center;
+}
+
+.limes span.overdn {
+    font-size: 70%;
+}
+
+.fraction {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+}
+.fraction > span {
+    display: block;
+    padding-top: 0.15em;
+}
+.fraction span.fdn {border-top: thin solid black; text-align: center}
+.fraction span.bar {display: none;}
