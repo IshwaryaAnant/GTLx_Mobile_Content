@@ -73,7 +73,7 @@ font-size: 120%;
 {
 background-color:#FFFFFF;
 border-bottom-color: #BEBEBE; 
-border-width: 20%;
+border-width: 2px;
 color: #63B8FF;
 font-size:120%;
 }
@@ -110,14 +110,6 @@ line-height: 130%;
 }
 
 #navBar a {
-  color: #63B8FF;
-}
-
-.arrowRight a{
-  color: #63B8FF;
-}
-
-.arrowLeft a{
   color: #63B8FF;
 }
 
@@ -173,10 +165,10 @@ padding: 0% 0% 2% 0%;
 }
 
 .picContent {
-  padding:10% 12% 10.5% 10%;
+  padding:10px 20px 15px 10px;
   max-width: 100%;
   height: auto;
-  width: auto;
+  width: auto\9;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -210,7 +202,7 @@ input[type="checkbox"]
 h2
 {
   padding-left: 3%;
-  font-size:120%;
+  font-size:20px;
   font-weight: bold;
   padding-bottom: 2%;
 }
@@ -222,7 +214,7 @@ text-align: center;
 p {
   text-align: left;
   padding: 0% 3%;
-  font-size: 100%;
+  font-size: 110%;
 }
 
 span.frac {
@@ -233,7 +225,7 @@ span.frac {
 }
 span.frac > sup {
   display: block;
-  border-bottom: 10% solid;
+  border-bottom: 1px solid;
 }
 
 span.frac > span {
@@ -282,45 +274,3 @@ span.frac > sub {
 }
 .fraction span.fdn {border-top: thin solid black; text-align: center}
 .fraction span.bar {display: none;}
-
-.arrowRight{
-  width:30%;
-  padding-top: 3%;
-  float:right;
-  margin-right: 3%;
-  text-align: right;
-  margin-bottom: 5%;
-
-}
-
-.arrowLeft{
-  width:30%;
-  padding-top: 3%;
-  float:left;
-  margin-left: 3%;
-  margin-bottom: 5%;
-}
-
-.captionRight
-{
-  margin-right: 0%;
-  margin-bottom:3%;
-  text-align: right;
-
-}
-.captionLeft
-{
-  margin-left: 0%;
-  margin-bottom:3%;
-}
-
-.arrow
-{ 
-  width:100%;
-<<<<<<< HEAD
-  display: inline-block;
-
-}
-=======
-}
->>>>>>> 8b0d0d14ea031ebc6c1ca4f66ba3f39fa41705e1
