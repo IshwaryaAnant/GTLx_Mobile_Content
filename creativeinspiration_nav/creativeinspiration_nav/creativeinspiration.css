@@ -113,6 +113,10 @@ line-height:30px;
   color: #63B8FF;
 }
 
+.caption a{
+  color: #63B8FF;
+}
+
 a
 {
 text-decoration:none;
@@ -168,7 +172,7 @@ padding: 0% 0% 2% 0%;
   padding:10px 20px 15px 10px;
   max-width: 100%;
   height: auto;
-  width: auto\9;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -274,3 +278,37 @@ span.frac > sub {
 }
 .fraction span.fdn {border-top: thin solid black; text-align: center}
 .fraction span.bar {display: none;}
+
+.arrowRight{
+  width:30%;
+  padding-top: 3%;
+  float:right;
+  margin-right: 3%;
+  text-align: right;
+
+}
+
+.arrowLeft{
+  width:30%;
+  padding-top: 3%;
+  float:left;
+  margin-left: 3%;
+}
+
+.captionRight
+{
+  margin-right: 0%;
+  margin-bottom:3%;
+  text-align: right;
+
+}
+.captionLeft
+{
+  margin-left: 0%;
+  margin-bottom:3%;
+}
+
+.arrow
+{ 
+  width:100%;
+}
